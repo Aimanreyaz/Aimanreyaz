@@ -1,0 +1,74 @@
+/* // Large devices (desktops, 992px and up)  */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+/* // Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
+
+ /* Medium devices (tablets, 768px and up)  */
+ @media (min-width: 768px) and (max-width: 991.98px) {  }
+
+
+/* // Small devices (landscape phones, 576px and up)  */
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+   
+    .navbar-light .navbar-nav .nav-link {
+      
+        text-align: right;
+        background: #111;
+        /* text-decoration: inline-block; */
+    }
+    .banner_overly {
+        padding-top: 190px;
+        padding-bottom: 193px;
+     
+    }
+    .banner_item h3 {
+        font-size: 19px;
+      
+    }
+    .banner_item h1 {
+        font-size: 25px;
+    }
+    .banner_item p {
+        padding: 0px 28px;
+        
+    }
+    .idea_item {
+        padding-top: 40px;
+        
+    }
+    .idea_text h2 {
+        font-size: 25px;
+      
+        padding-bottom: 20px;
+    }
+    .fa-solid, .fas {
+        color: #111;
+    }
+    .purchase_text h3 {
+        font-size: 14px;
+        
+    }
+    .purchase_text p {
+        font-size: 14px;
+        padding-bottom: 28px;
+       
+    }
+    .p_button a {
+        padding: 10px 15px 7px 15px;
+       
+    }
+    .project_btn button {
+        padding: 5px 10px;
+       
+        font-size: 11px;
+        margin-top: 20px;
+        margin-right: 0px;
+      
+    }
+}
